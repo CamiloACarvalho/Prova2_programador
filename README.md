@@ -1,4 +1,4 @@
-# Prova2_ptrogramador
+# Prova2_programador
 
 Olá! Tudo bem? Me chamo Camilo, bem vindo a minha página do GitHub.
 <br>
