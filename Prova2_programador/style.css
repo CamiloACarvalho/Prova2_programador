@@ -1,0 +1,72 @@
+*{
+    margin:0; /*É A DISTÂNCIA DA TAG ATÉ O EXTERIOR*/
+    padding: 0; /*É A DISTÂNCIA DA TAG ATÉ O CONTEÚDO DELA*/
+    box-sizing: border-box;
+    text-decoration: none; /*REMOVE QUALQUER DECORAÇÃO QUE TEM NO TEXTO*/
+}
+
+body{
+    /* ESSE FUNDO GRADIENTE EU RETIREI DO SITE: https://cssgradient.io/ */
+    background: rgb(245,245,245);
+    background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(86,139,203,1) 100%);
+    font-family: 'Cormorant Garamond', serif; /*FONTE RETIRADA DO GOOGLE FONTES */
+}
+
+.container{
+    /*CONFIGURANDO O "BLOCO" DO BODY "TODO"*/
+    max-width: 450px; /*TAMANHO MÁXIMO*/
+    margin-top: 5%; /*DISTÂNCIA DO TOPO*/
+    margin-left: auto; /*ALINHANDO AO CENTRO*/
+    margin-right: auto; /*ALINHANDO AO CENTRO*/
+    padding: 12px;  /*DISTÊNCIA DO TOPO DA PÁGINA ATÉ OS PRIMEIRO ÍCONES*/
+}
+
+.header{
+    /*CONFIGURANDO O TÍTULO*/
+    display: flex; /*TERÁ COMO PARÂMETRO O FLEXBOX*/
+    justify-content: center; /*VAI LINHAR O ITENS  NO EIXO PRINCIPAL NO CENTRO DA PÁGINA */
+    align-items: center; /*VAI LINHAR O ITENS  NO EIXO TRANSVERSAL DA PÁGINA */
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.main{
+    margin: 4px; /*DEFINE O ESPAÇO ENTRE OS ELEMENTOS*/
+    margin-bottom: 4px; /*DISTÂNCIA DO TÍTULO ATÉ O SUB-TITULO*/
+}
+
+.main form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /*DEFININDO OS ITENS DO BLOCO (CONTEINER) ALINHANDO NO FORMADO DE COLUNA*/
+}
+
+.main label{
+    font-weight: bold; /*DEIXANDO O TEXTO EM NEGRITO*/
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.main input{
+    height: 32px; /*TAMANHO DO CAMPO DE PREENCHIMENTO*/
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 12px; /*DISTÂNCIA ATÉ A BORDA ESQUERDA*/
+    border: 1px solid #999; /*DEFININDO A BORDA E A COR*/
+    border-radius: 4px; /*ARREDONDANDO AS BORDAS DO CAIXINHA*/
+}
+
+.main input:focus{
+   background: #F0F0F5; /*TROCANDO A COR DO FUNDO DO CAMPO DE PREENCHIMENTO */
+}
+
+.footer{
+    padding: 16px;
+}
+
+.footer p{
+    color: #999;
+    font-size: 12px;
+}
+
+
