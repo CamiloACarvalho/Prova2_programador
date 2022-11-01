@@ -1,0 +1,44 @@
+Teste de Programação Web
+
+Utilizando seus conhecimentos em HTML, CSS, JavaScript, PHP e MySQL/PostgreSQL, desenvolva uma aplicação web que atenda os requisitos abaixo. Sobre frameworks: Não são obrigatórios, mas se você tem conhecimento, dê preferência para uso de Vuejs + Laravel.
+
+Teste:
+
+	1) Algoritmo: Considerando as regras de negócios apresentadas abaixo, construa um algoritmo
+(fluxograma) que seja capaz de, ao receber um determinado Período de Trabalho (Período = hora
+inicial e hora final), este deve identificar a quantidade de horas que foram trabalhadas em horário
+diurno e também as que foram trabalhadas em horário noturno. A saída deste algoritmo deve ser
+um totalizador de horas diurnas e um outro totalizador de horas noturnas.
+O fluxograma deve ser entregue em PDF.
+	
+	2) Aplicação: Desenvolva uma SPA simples que, implementando o algoritmo criado e considerando as regras de negócios abaixo, permita o cálculo e exibição da quantidade de horas trabalhadas diurnas e noturnas contidas em um período a ser informado pelo usuário.
+
+Requisitos :
+
+1.	Utilizar obrigatoriamente na implementação: PHP.
+2.	O cálculo das horas deve ser implementado no Back-End.
+3.	Toda e qualquer entrega deve estar no repositório do GitHub.
+4.	Todas as instruções para compilar/rodar a SAP deve estar do read-me do repositório.
+5.	Realizar commits durante o desenvolvimento a fim de demonstrar a evolução do desenvolvimento.
+
+Regras de Negócio :
+
+Cálculo de horas noturnas/diurnas:  considere as seguintes regras de negócios com relação à
+diferenciação de horas noturnas/diurnas em um período trabalhado.
+
+1) A legislação trabalhista brasileira prevê a diferenciação de remuneração das horas
+trabalhadas em horário noturno das horas trabalhadas em horário diurno.
+2) Para fins da legislação trabalhista brasileira, considera-se horário noturno todo o período
+trabalhado entre as 22:00 e às 05:00. Por consequência, considera-se horário diurno todo
+o período trabalhado entre as 05:00 e as 22:00.
+3) A duração máxima do período deverá ser inferior a 24 horas.
+4) Exemplos:
+	a) Em um período de 15:00 as 23:00, o colaborador deve receber 07:00 horas diurnas
+		e 01:00 hora noturna.
+	b) Em um período de 19:03 às 06:59, o colaborador deve receber 04:56 horas diurnas
+		e 07:00 horas noturnas.
+	c) Em um período de 23:59 às 08:02, o colaborador deve receber 03:02 horas diurnas
+		e 05:01 horas noturnas.
+
+
+MESMO que você não consiga concluir o teste, faça até onde achar possível. Levaremos em conta todo e qualquer esforço dedicado. BOA SORTE!
